@@ -1,5 +1,5 @@
 "MacVim configuration settings
-"20150228 Ken
+"20150307 Ken
 " cp ~/.vimrc ~/.vim/vimrc 
 " for github
 
