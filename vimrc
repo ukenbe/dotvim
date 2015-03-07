@@ -1,5 +1,7 @@
 "MacVim configuration settings
 "20150228 Ken
+" cp ~/.vimrc ~/.vim/vimrc 
+" for github
 
 "-----------------
 "Gerneral setting
@@ -153,7 +155,8 @@ nnoremap <silent><leader>ff :Unite tag -start-insert -no-split<CR>
 nnoremap <silent><leader>s :Unite -horizontal grep:.::<C-R><C-w><CR>
 
 """ For searching the word handin
-nnoremap <silent><leader>ss :Unite -no-split grep:.<CR>
+"nnoremap <silent><leader>ss :Unite -no-split grep:.<CR>
+nnoremap <silent><leader>ss :Unite -horizontal grep:.<CR>
 
 """ For searching the word in the cursor in the current buffer
 noremap <silent><leader>sf :Unite -no-split grep:%::<C-r><C-w><CR>
