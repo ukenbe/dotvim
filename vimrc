@@ -1,6 +1,6 @@
 "MacVim configuration settings
-"20150307 Ken
-" cp ~/.vimrc ~/.vim/vimrc 
+"20150310 Ken
+" cp -i ~/.vimrc ~/.vim/vimrc 
 " for github
 
 "-----------------
@@ -102,6 +102,7 @@ set ruler
 nnoremap  <C-n> :tabnew<CR>
 nnoremap  <C-h> :tabprevious<CR>
 nnoremap  <C-l> :tabnext<CR>
+nnoremap  <C-c> :tabclose<CR>
 
 "--------------------------------------------------
 "                  編輯設定
